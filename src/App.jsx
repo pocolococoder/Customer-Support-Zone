@@ -1,16 +1,13 @@
+import Navbar from "./components/Navbar/Navbar";
+import Banner from "./components/Banner/Banner";
+import Footer from "./components/Footer/Footer";
 
-import './App.css'
-import Navbar from './components/Navbar/Navbar'
-
-
-function App() {
-  
-
+export default function App() {
   return (
-    <>
-     <Navbar></Navbar>
-    </>
-  )
+    <div>
+      <Navbar />
+      <Banner inProgressCount={0} resolvedCount={0} />
+      <Footer />
+    </div>
+  );
 }
-
-export default App

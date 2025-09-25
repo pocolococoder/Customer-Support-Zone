@@ -1,0 +1,92 @@
+export const ticketsData = [
+  {
+    id: 1,
+    title: "Login Issues - Can't Access Account",
+    description: "Customer is unable to log in due to a forgotten password.",
+    customer: "John Smith",
+    priority: "HIGH",
+    status: "Open",
+    createdAt: "2025-09-15"
+  },
+  {
+    id: 2,
+    title: "Payment Failed - Card Declined",
+    description: "Card payment declined multiple times by the gateway.",
+    customer: "Jane Doe",
+    priority: "HIGH",
+    status: "Open",
+    createdAt: "2025-09-16"
+  },
+  {
+    id: 3,
+    title: "Unable to Download Invoice",
+    description: "Customer cannot download invoice from the account dashboard.",
+    customer: "Michael Brown",
+    priority: "MEDIUM",
+    status: "Open",
+    createdAt: "2025-09-17"
+  },
+  {
+    id: 4,
+    title: "App Crash on Launch",
+    description: "Mobile app crashes immediately after launching on Android 14.",
+    customer: "Sarah Lee",
+    priority: "HIGH",
+    status: "Open",
+    createdAt: "2025-09-18"
+  },
+  {
+    id: 5,
+    title: "Two-Factor Authentication Issue",
+    description: "Customer is not receiving OTP code for authentication.",
+    customer: "David Wilson",
+    priority: "HIGH",
+    status: "Open",
+    createdAt: "2025-09-18"
+  },
+  {
+    id: 6,
+    title: "Incorrect Billing Address",
+    description: "System is saving billing address in a different city.",
+    customer: "Emily Davis",
+    priority: "MEDIUM",
+    status: "Open",
+    createdAt: "2025-09-19"
+  },
+  {
+    id: 7,
+    title: "Refund Not Processed",
+    description: "Refund requested two weeks ago is still not processed.",
+    customer: "Chris Evans",
+    priority: "HIGH",
+    status: "Open",
+    createdAt: "2025-09-20"
+  },
+  {
+    id: 8,
+    title: "Unable to Upload Profile Picture",
+    description: "Upload fails when trying to add new profile picture.",
+    customer: "Sophia Martinez",
+    priority: "LOW",
+    status: "Open",
+    createdAt: "2025-09-21"
+  },
+  {
+    id: 9,
+    title: "Subscription Auto-Renewal",
+    description: "Customer charged twice for auto-renewal subscription.",
+    customer: "Liam Thomas",
+    priority: "MEDIUM",
+    status: "Open",
+    createdAt: "2025-09-22"
+  },
+  {
+    id: 10,
+    title: "Missing Order Confirmation Email",
+    description: "Order placed but confirmation email not received.",
+    customer: "Olivia Johnson",
+    priority: "MEDIUM",
+    status: "Open",
+    createdAt: "2025-09-23"
+  }
+];

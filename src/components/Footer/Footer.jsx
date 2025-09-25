@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 mt-10">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-6 py-10 text-sm">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-5 px-6 py-10 text-sm">
         
         {/* Column 1 */}
         <div>
@@ -20,7 +20,7 @@ Requests can be submitted through email, portal, or chat.
           <ul className="space-y-1">
             <li>About Us</li>
             <li>Our Mission</li>
-            <li>Contact</li>
+            <li>Contact Saled   </li>
           </ul>
         </div>
 
@@ -34,14 +34,23 @@ Requests can be submitted through email, portal, or chat.
           </ul>
         </div>
 
-        {/* Column 4 */}
+        <div>
+          <h4 className="text-white font-bold mb-2">Information</h4>
+          <ul className="space-y-1">
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
+            <li>Join Us</li>
+          </ul>
+        </div>
+
+        {/* Column 5 */}
         <div>
           <h4 className="text-white font-bold mb-2">Social Links</h4>
           <ul className="space-y-1">
-            <li>Twitter</li>
-            <li>LinkedIn</li>
-            <li>Facebook</li>
-            <li>Email: support@cs.com</li>
+            <li><i class="fa-brands fa-twitter"></i>Twitter</li>
+            <li><i class="fa-brands fa-linkedin"></i>LinkedIn</li>
+            <li><i class="fa-brands fa-facebook"></i>Facebook</li>
+            <li><i class="fa-solid fa-envelope"></i>Email: support@cs.com</li>
           </ul>
         </div>
       </div>
